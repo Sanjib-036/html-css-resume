@@ -1,1 +1,63 @@
 /* Your responsive CSS styles go here */
+@media only screen and (max-width:500px) {
+    body
+    {
+        background-color: #d1ccc0;
+    }
+    #sec_1
+{
+    background-color: #f7f1e3;
+}
+
+#sec_2
+{
+    background-color: #aaa69d;
+}
+#sec_3
+{
+    background-color: #84817a;
+    text-align: center;
+}
+  }
+
+  @media only screen and (min-width:1000px) {
+    body
+    {
+        background-color: #BDC581;
+    }
+    #sec_1
+    {
+        background-color: #bdc3c7;
+    }
+    
+    #sec_2
+    {
+        background-color: #95a5a6;
+    }
+    #sec_3
+    {
+        background-color: #7f8c8d;
+        text-align: center;
+  }
+  }
+  @media only screen and (min-width:501px)
+                     and (max-width:999px) 
+  {
+    body
+    {
+        background-color: #4b6584;
+    }
+    #sec_1
+    {
+        background-color: #d1d8e0;
+    }
+    
+    #sec_2
+    {
+        background-color: #a5b1c2;
+    }
+    #sec_3
+    {
+        background-color: #778ca3;
+        text-align: center;
+  }
